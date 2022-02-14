@@ -3,21 +3,30 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo/estilo.css">
     <title>Lampada</title>
 </head>
 
 <body>
     <header>
-        <h1>Lampada</h1>
+        <h1 id="titulo">Lampada</h1>
     </header>
-    <div>
-        <input type="button" value="Acionar" onclick="acionar()">
-    </div>
+
     <div id="quarto">
         <img src="" id="lampada" alt="" width="100">
-    </div>
 
+
+    </div>
+    <div id="interruptor">
+        <input type="button" id="botao" value="Colocar lampada" onclick="acionar()">
+        <footer>
+            <p>&copy Everton David </p>
+        </footer>
+    </div>
+   
     <script src="script/script.js"></script>
 </body>
 

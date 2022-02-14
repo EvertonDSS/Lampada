@@ -1,0 +1,40 @@
+body {
+  background-color: darkblue;
+}
+header {
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+  color: gray;
+}
+
+img {
+  transform: rotate(180deg);
+}
+
+#quarto {
+  margin: auto;
+  text-align: center;
+  background-color: gray;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+
+#interruptor {
+  text-align: center;
+}
+
+#botao {
+  margin-top: 5px;
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  font-family: "Press Start 2P", cursive;
+  cursor: pointer;
+}
+footer {
+  color: white;
+}
